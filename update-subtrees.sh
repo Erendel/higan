@@ -13,4 +13,4 @@ cd "$(dirname "$0")" || exit 1
 git subtree pull --prefix=libco https://github.com/higan-emu/libco.git master
 
 # Merge changes from hunterk's shader repository.
-git subtree pull --prefix=extras/both/Shaders https://github.com/hizzlekizzle/quark-shaders.git master
+git subtree pull --prefix=extras/Shaders https://github.com/hizzlekizzle/quark-shaders.git master
